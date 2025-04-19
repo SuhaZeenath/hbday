@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hbd</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container fade-in">
+
+    <h1 class="font-pacifico">🎉 Happy Birthday AngryBird 🎉 </h1>
+
+   
+    <p class="subtitle text"><h5>this is your gift😁haan ..haan..
+      patha hai thoda ajeeb hai,koi kaam nhi tha isliye banaya hai</h5></p>
+
+
+    
+
+
+    <div class="fun-section">
+      <h4>ITACHI UCHIHA : abb a itachi kon hai a tho mujhe nai patha but phir bhi padlo</h4>
+      <p>Itachi once said... "Even I can’t survive your level of madness" wahhh!! kya baath kaha hai,
+         itachi ne aisa kabhi kahatha kya??</p>
+    </div>
+    <button onclick="toggleGift()">oyee!!!! click this</button>
+
+    <div id="giftSection" class="gift-hidden" style="margin-top: 20px;">
+
+
+  
+ 
+  <p style="font-size: 1.2rem; margin-top: 10px;"><h2>kuch nai hai isme, bass showoff ke liye rakha hai😎hehehe</h2></p>
+</div>
+
+    <div class="angrybird-mode">
+      
+      <h2> u vs me🤜🏻🤛🏻</h2>
+      <p>a war every alternate days🤨</p>
+      
+      <p> khud angrybird hokar,mujhe angrybird boltheho😏</p>
+     
+        <p>agar maine vo snap request accept nahi kiya hotha tho mujhe aise celebrity se milne ka moka kahan miltha😂</p>
+        <p> oye!!maine jo movie list bheja tha uska trailer dekha.. nahi na🤨 </p>
+        
+        <p>aur apke kehne par maine drama dekhna shuru kardiya aur addict hogyi</p>
+        <p>aaj kal gym shym jaane lage ho😏</p>
+        <p>i never thought ki i would meet an angrybird in real life😁</p>
+        
+        
+         
+         
+         
+         
+
+         
+      
+    </div>
+    <button onclick="toggleMessage()">abb achhi baatein😏haan ..achhi baatein apke baare mae hin..zyada udo mathh!!
+    </button>
+
+<div id="myMessage" style="display: none; margin-top: 20px;">
+  <p> kya acchi batein hai?? ....🤔sochna padega</p>
+  <p>😅😅😅</p>
+  <p>THANKKK YOUUUU😇🌸(but kyun? nai patha😅bass formality k liye bolrahihun 😁)</p>
+  <p>u r annoying and  weird like  me:D</p>
+    <p>Thanks for always being there to laugh at my stupidity, match my energy, and roast me like it’s your life’s mission.</p>
+  <p>HAPPY BIRTHDAYYY to the most annoying, dramatic person I somehow tolerate 🤡</p>
+  <p>...hehehe...</p>
+</div>
+
+
+    <footer>
+      <p class="final-msg"><h3>it's okay , abb a sabb dekkhar thank you waala dialouge kehne ki zarurat nahi😏</h3>
+        <h6>accha tho hum chalthe hai!!👋👋 </h6>
+     </p>
+    </footer>
+  </div>
+
+  
+  <script>
+    let isGiftVisible = false;
+  
+    function toggleGift() {
+      const gift = document.getElementById("giftSection");
+      isGiftVisible = !isGiftVisible;
+  
+      if (isGiftVisible) {
+        gift.classList.remove("gift-hidden");
+        gift.classList.add("gift-visible");
+      } else {
+        gift.classList.remove("gift-visible");
+        gift.classList.add("gift-hidden");
+      }
+    }
+    function toggleMessage() {
+  const message = document.getElementById("myMessage");
+  message.style.display = message.style.display === "none" ? "block" : "none";
+}
+
+  </script>
+  
+  
+  
+</body>
+</html>
